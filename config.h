@@ -17,7 +17,7 @@ static const Block blocks[] = {
 	{"",	"/home/gon/.config/barblocks/temp",	5,	6}, 
 	{"",	"/home/gon/.config/barblocks/correo-rss",	0,	7}, 
 	{"",	"/home/gon/.config/barblocks/paquetes",	0,	4}, 
-	{"",	"/home/gon/.config/barblocks/sb-memory",	10,	14}, 
+	{"",	"/home/gon/.config/barblocks/memory",	10,	14}, 
 	//{"",	"/home/gon/.config/barblocks/moonphase",	18000,	5},
 	//{"",	"sb-mailbox",	180,	12},
 	//{"",	"sb-nettraf",	1,	16},
@@ -25,7 +25,7 @@ static const Block blocks[] = {
 	//{"",	"/home/gon/.config/barblocks/vol2",	0,	10},
 	//{"",	"sb-battery",	5,	3},
 	{"",	"/home/gon/.config/barblocks/ip",	0,	2}, 
-	{"",	"/home/gon/.config/barblocks/sb-clock",	60,	1},
+	{"",	"/home/gon/.config/barblocks/clock",	60,	1},
 	//{"",	"sb-internet",	5,	4},
 	//{"",	"sb-help-icon",	0,	15},
 };
