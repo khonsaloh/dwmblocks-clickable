@@ -2,15 +2,15 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"",	"cat /tmp/recordingicon 2>/dev/null",	0,	9},
-	{"",	"~/.config/barblocks/menu-dwm",	0,	3},
-	{"",	"~/.config/barblocks/vol2",	0,	10},
-	{"",	"~/.config/barblocks/forecast2",	18000,	5},
-	{"",	"~/.config/barblocks/temp",	5,	6},
-	{"",	"~/.config/barblocks/correo-rss",	0,	7},
-	{"",	"~/.config/barblocks/paquetes",	0,	4},
-	{"",	"~/.config/barblocks/memory",	10,	14},
-	{"",	"~/.config/barblocks/ip",	0,	2},
-	{"",	"~/.config/barblocks/clock",	120,	1},
+	{"",	"$BARBLOCKS/menu-dwm",	0,	3},
+	{"",	"$BARBLOCKS/vol2",	0,	10},
+	{"",	"$BARBLOCKS/forecast2",	18000,	5},
+	{"",	"$BARBLOCKS/temp",	5,	6},
+	{"",	"$BARBLOCKS/correo-rss",	0,	7},
+	{"",	"$BARBLOCKS/paquetes",	0,	4},
+	{"",	"$BARBLOCKS/memory",	10,	14},
+	{"",	"$BARBLOCKS/ip",	0,	2},
+	{"",	"$BARBLOCKS/clock",	120,	1},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
